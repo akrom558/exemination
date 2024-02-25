@@ -30,6 +30,11 @@
     font-weight: 700;
     line-height: 18px;
     opacity: 0.7;
+    &:hover{
+        cursor: pointer;
+        background-color: #ef6097;
+        
+    }
 }
 .header__btn{
     color: rgb(251, 252, 254);
@@ -44,7 +49,7 @@ padding-bottom: 15px;
 padding-left: 25px;
 border: none;
 box-shadow: 10px 10px 25px -10px #36536b40;
-background: rgb(239, 96, 151);
+background: #ef6097;
  &:hover{
 cursor: pointer;
 background-color:red;
