@@ -1,0 +1,170 @@
+.pricing__item {
+    max-width: 327px;
+    margin-bottom: 25px;
+}
+
+.pricing__block {
+    padding-top: 126px;
+}
+
+.pricing__title {
+    color: rgb(54, 83, 107);
+    font-family: DM Serif Display;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    padding-bottom: 48px;
+}
+
+.pricing__item {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.pricing__sub_title {
+    color: rgb(186, 66, 112);
+    font-family: DM Serif Display;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: -0.18px;
+    text-align: center;
+    padding-bottom: 17px;
+}
+
+.pricing__text {
+    color: rgb(108, 130, 148);
+    font-family: PublicSans;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-bottom: 8px;
+    opacity: 0.7;
+}
+
+.pricing__span {
+    color: rgb(54, 83, 107);
+    font-family: DM Serif Display;
+    font-size: 56px;
+    font-weight: 400;
+    line-height: 72px;
+    letter-spacing: -0.43px;
+    text-align: center;
+    display: block;
+    opacity: 0.25;
+    margin-bottom: 24px;
+
+}
+
+.box {
+    background: rgb(54, 83, 107);
+    opacity: 0.25;
+    width: 327px;
+    height: 2px;
+    margin-bottom: 24px;
+}
+
+.pricing__img_block {
+    display: block;
+    padding-bottom: 10px;
+    margin-left: 30%;
+
+}
+
+.pricing_sub_item {
+    color: rgb(54, 83, 107);
+    font-family: Public Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding-bottom: 10px;
+    text-align: center;
+    margin-left: auto;
+}
+
+.pricing__btn {
+    color: rgb(54, 83, 107);
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: -0.12px;
+    text-align: center;
+    display: block;
+    padding: 16px 28px;
+    box-sizing: border-box;
+    border: 1px solid rgb(54, 83, 107);
+    border-radius: 24px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width:768px) {
+    .pricing__item {
+        max-width: 223px;
+    }
+
+    .pricing__list {
+        display: flex;
+        gap: 30px;
+    }
+
+    .box {
+        max-width: 190px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .pricing__item {
+        max-width: 350px;
+    }
+
+    .box {
+        max-width: 280px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.redy__title {
+    color: rgb(54, 83, 107);
+    font-family: DM Serif Display;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.25px;
+    text-align: center;
+    padding-bottom: 35px;
+}
+@media screen and (min-width:992px){
+    .pricing__ready_block{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .hero__button{
+        margin-right: 0;
+    }
+}
+.hero__button{
+    margin-bottom: 30px;
+}
+.pricing{
+    background-repeat: no-repeat;
+    background-image: url(/images/Bitmap\ \(9\)\ \(1\).png);
+    background-position: right top;
+    overflow: hidden;
+    max-width: 100%;
+    
+}

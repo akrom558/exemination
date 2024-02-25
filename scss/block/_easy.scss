@@ -1,0 +1,51 @@
+.easy__img {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.easy__title {
+    color: rgb(54, 83, 107);
+    font-family: DM Serif Display;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: -0.28px;
+    text-align: center;
+    padding-bottom: 24px;
+}
+
+.easy__text {
+    color: rgb(108, 130, 148);
+    font-family: Public Sans;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-align: center;
+}
+
+@media screen and (min-width:992px) {
+    .easy__block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .easy__content {
+        max-width: 445px;
+    }
+
+    .easy__text {
+        text-align: left;
+
+    }
+
+    .easy__title {
+        text-align: left;
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+
+    }
+}
